@@ -11,7 +11,3 @@ function sayHello() {
    }
 
 }
-
-sayHello()
-
-console.log(Newmessage)
