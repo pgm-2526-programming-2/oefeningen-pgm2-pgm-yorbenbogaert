@@ -1,0 +1,20 @@
+const willekeurigeNamenArray = [
+  ['Alice', 'Bob', 'Charlie'],
+  ['David', 'Eva', 'Frank'],
+  ['Grace', 'Hank', 'Ivy'],
+  ['Jack', 'Kelly', 'Liam']
+];
+
+console.log(willekeurigeNamenArray)
+
+const flatArray = willekeurigeNamenArray.flat();
+console.log(flatArray)
+
+const flatEnDubbel = willekeurigeNamenArray.flat().map(name => name + name);
+console.log(flatEnDubbel);
+
+const verwijderEersteSub = willekeurigeNamenArray.map(subarray => subarray.slice(1));
+console.log(verwijderEersteSub);
+
+willekeurigeNamenArray.pop();
+console.log(willekeurigeNamenArray);

@@ -1,0 +1,8 @@
+function filterEvenGetallen(getallen) {
+  // Implementeer de logica hier
+  return getallen.filter(getal => Math.floor(getal / 2) === getal / 2);
+}
+
+let willekeurigeGetallen = [3, 8, 15, 6, 10, 7];
+let evenGetallen = filterEvenGetallen(willekeurigeGetallen);
+console.log(evenGetallen); // geeft [8, 6, 10]
